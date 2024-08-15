@@ -15,13 +15,13 @@ current_state = get_current_state()
 
 
 st.set_page_config(
-    page_title="Build a RAGs bot, powered by LlamaIndex",
+    page_title="Build a RAGs bot",
     page_icon="🦙",
     layout="centered",
     initial_sidebar_state="auto",
     menu_items=None,
 )
-st.title("Build a RAGs bot, powered by LlamaIndex 💬🦙")
+st.title("Build a RAGs bot")
 st.info(
     "Use this page to build your RAG bot over your data! "
     "Once the agent is finished creating, check out the `RAG Config` and "
